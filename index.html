@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Autobus Arcade Empire</title>
+    <link rel="shortcut icon" href="icons/autobus_game_icon.bmp">
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Lato|Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <nav>
+        <!-- score, time, logo, name -->
+        <div>
+            <ul id="nav">
+                <ol class="left_side">
+                    <li> High Score: <span id="high_score_txt">0</span>
+
+                    </li>
+                    <li>
+                        Score: <span id="score_txt">0</span>
+                    </li>
+                </ol>
+
+                <figure id="name">
+                    <div class="button" id="btn_start">Start<img src="images/power_img.png" alt=""></div>
+                    <div class="button" id="btn_reset">Reset<img src="images/reset_img.png" alt=""></div>
+                    <div class="button" id="btn_pause"><span>Pause</span>
+                        <img id="pause_im" src="images/play_img.png" alt="">
+                    </div>
+
+
+                </figure>
+
+                <ol class="right_side">
+                    <li id="timer_container">
+                        Time: <span id="timer_txt">0</span>
+                    </li>
+                </ol>
+
+            </ul>
+        </div>
+    </nav>
+
+    <main id="board">
+        <!-- Game piece to click on -->
+        <div id="checker"></div>
+        <!-- Banner -->
+        <div id="event_Txt">
+            ROUTE FINISHED!
+        </div>
+
+
+
+        <!-- Music -->
+        <audio id="music" src="audio/WindowsErrorRemix_Fixed.mp3"></audio>
+        <!-- Sound Effects -->
+        <audio id="eff_2" src="audio/Windows XP Balloon.wav"></audio>
+        <audio id="eff_3" src="audio/Windows Navigation Start.wav"></audio>
+    </main>
+
+
+    <footer>
+        <figure>
+            <img src="images/SV_pi_ksm.jpg" alt="">
+        </figure>
+
+        <div> 
+            <img src="icons/autobus_game_icon.bmp" alt="">
+            AUTOBUS ARCADE EMPIRE &copy;2019
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+    <!-- <audio id="music">
+        //click sounds
+        <source src="audio/Windows XP Battery Critical.wav" type="audio/ogg">
+        <source src="audio/Windows XP Balloon.wav" type="audio/mpeg">
+        <source src="audio/Windows XP Balloon.wav" type="audio/mpeg">
+        <source src="audio/Windows Navigation Start.wav" type="audio/mpeg">
+            //music
+        <source src="audio/Windows Error Remix.mp3" type="audio/mpeg">
+        Your browser does not support the audio tag.
+    </audio> -->
+
+
+</body>
+
+
+</html>

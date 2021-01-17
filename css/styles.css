@@ -1,0 +1,215 @@
+/* Nav---------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+nav
+{
+    /* width: 100%; */
+    background: #143e7c;
+    color: white;
+    padding: 0;
+    margin: 0;
+    height: 40px;
+}
+#nav
+{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+
+#nav figure
+{
+    width: 60%;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.left_side
+{
+    color: yellow;
+    font-size: 1rem;
+    font-family: "Dosis", sans-serif;
+}
+
+
+.right_side
+{
+    color: yellow;
+    font-size: 2.2rem;
+    font-family: "Dosis", sans-serif;
+}
+/* Pause, Start, Reset */
+.button
+{
+    background: #646464;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding: 0;
+    margin: 0;
+    width: 32%;
+    height: 100%;
+    text-align: center;
+    font-family: "Dosis",sans-serif;
+    
+}
+
+.button:hover
+{
+    background: #143e7c;
+
+}
+.button img
+{
+     height: 32px;
+     /* margin: auto; */
+}
+
+
+/* Scores and Timer */
+#nav ol
+{
+    width: 19%;
+    height: 39px;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+#nav ol li
+{
+    width: 100%;
+    /* height: 39px; */
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+
+}
+ul
+{
+    padding: 0;
+    margin: 0;
+}
+
+/* Webpage---------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Shape and board */
+
+p {
+    font-family: "Roboto",sans-serif;
+}
+
+html
+{
+    padding: 0;
+    margin: 0;
+}
+#board 
+{
+    height: 92vh;
+    background-color: rgb(224, 224, 224);
+}
+#shape
+{
+        width: 100%;
+        height: 100%;
+}
+
+#checker
+{
+    position:absolute;
+
+    width: 30px;
+    height: 30px;
+
+}
+/* Overlay */
+#event_Txt
+{
+    background: #143e7c;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    margin: auto;
+    font-size: 3.2rem;
+    font-family: "Dosis", sans-serif;
+    color: yellow;
+
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    background: #143e7c;
+
+}
+
+main
+{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/* Footer---------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+footer
+{
+    width: 100%;
+    background: #143e7c;
+    max-height: 16px;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+footer img
+{
+    max-height: 16px;
+}
+
+footer figure
+{
+    width: 29%;
+    height: 100%;
+    margin: 0;
+    padding: 24;
+}
+
+footer div
+{
+    width: 70%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: yellow;
+    font-family: "Roboto",sans-serif;
+
+}
+
+
+/* Shapes---------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Circle */
+.circle 
+{
+    height: 50px;
+    width: 50px;
+    background-color: #555;
+    border-radius: 50%;
+  }
+
+
+/* Sqaure */
+.square 
+{
+    height: 50px;
+    width: 50px;
+    background-color: #555;
+  }
+/* Parallelogram */
+.parallelogram 
+{
+	width: 100px;
+	height: 50px;
+	transform: skew(20deg);
+    background: #555;
+}
